@@ -80,4 +80,5 @@ style: Theme.of(context).textTheme.headlineSmall,
 Data `nama` dan `nim` langsung ditampilkan, sedangkan `tahun` digunakan untuk menghitung umur.
 
 # Demo
-![]()
+[demo.webm](https://github.com/user-attachments/assets/8528f421-41f2-4646-896b-b905dcb51ef3)
+
