@@ -20,11 +20,25 @@ class TampilData extends StatelessWidget {
         title: const Text("Perkenalan"),
       ),
       body: Container(
-        margin: const EdgeInsets.all(10),
-        child: Column(
-          children: [
-            Text("Nama saya $nama, NIM $nim, dan umur saya adalah $umur tahun"),
-          ],
+        margin: const EdgeInsets.all(16),
+        child: Card(
+          elevation: 4,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15),
+          ),
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  "Perkenalkan, nama saya $nama dengan NIM $nim. Umur saya $umur tahun.",
+                  style: Theme.of(context).textTheme.headlineSmall,
+                ),
+              ],
+            ),
+          ),
         ),
       ),
     );
